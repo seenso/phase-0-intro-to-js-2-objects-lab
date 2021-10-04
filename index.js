@@ -1,10 +1,10 @@
 // Write your solution in this file!
 let employee = {name: "Seen", streetAddress: "123 Snowflake Lane"};
 
-function updateEmployeeWithKeyAndValue() {}
+function updateEmployeeWithKeyAndValue(obj, key, value) {}
 
-function destructivelyUpdateEmployeeWithKeyAndValue() {}
+function destructivelyUpdateEmployeeWithKeyAndValue(obj, key, value) {}
 
-function deleteFromEmployeeByKey() {}
+function deleteFromEmployeeByKey(obj, key) {}
 
-function destructivelyDeleteFromEmployeeByKey() {}
+function destructivelyDeleteFromEmployeeByKey(obj, key) {}
