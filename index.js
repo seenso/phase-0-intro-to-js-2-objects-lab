@@ -18,4 +18,7 @@ function deleteFromEmployeeByKey(obj, key) {
     return newObj;
 }
 
-function destructivelyDeleteFromEmployeeByKey(obj, key) {}
+function destructivelyDeleteFromEmployeeByKey(obj, key) {
+    delete obj[key];
+    return obj;
+}
